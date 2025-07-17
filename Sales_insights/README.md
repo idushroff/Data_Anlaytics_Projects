@@ -7,22 +7,22 @@ This project demonstrates an end-to-end data analytics workflow using SQL Server
 
 NOTE: You don’t have to do “sales.” Everywhere if you right click on sales and set it as the default schema
 
-- SHOW ALL TRANSACTIONS
-- SHOW ALL CURRENCIES IN USD 
-- WHAT IS THE TOTAL NUMBER OF SALES TRANSACTIONS? 
-- WHAT IS THE TOTAL NUMBER OF CUSTOMERS? 
-- SHOW ALL MARKETS
-- SHOW ALL THE TRANSACTIONS FROM CHENNAI 
-- HOW MANY TRANSACTIONS WERE PERFORMED IN CHENNAI
-- SHOW THE TOTAL REVENUE (BUSINESS) YOU DID IN CHENNAI
-- INNER JOIN THE DATE AND TRANSACTION TABLE USING THE YEAR COLUMN
-- THEN SHOW ALL THE TRANSACTIONS THAT WERE MADE IN THE YEAR 2020
-- SHOW THE TOTAL REVENUE IN 2020 
-- SHOW THE TOTAL REVENUE IN 2020 IN CHENNAI
-- SHOW ALL THE DISTINCT PRODUCTS SOLD IN CHENNAI
-- CHECK IF THE SALES_AMOUNT COLUMN HAS NEGATIVE OR ZERO VALUES IN THE TRANSACTIONS TABLE
-- TURNS OUT THERE ARE DUPLICATE CURRENCIES AND WE DON’T WANT THAT SO CHECK THE CURRENCY COLUMN IN THE TRANSACTIONS TABLE AND TACKLE THIS BY DELETING THE BAD/DUPLICATE RECORDS FOR BOTH CURRENCIES 
-- SHOW THE TOTAL REVENUE IN YEAR 2020 BY MONTH JANUARY
+- Show all transactions
+- Show all currencies in usd
+- What is the total number of sales transactions?
+- What is the total number of customers?
+- Show all markets
+- Show all the transactions from chennai
+- How many transactions were performed in chennai
+- Show the total revenue (business) you did in chennai
+- Inner join the date and transaction table using the year column
+- Then show all the transactions that were made in the year 2020
+- Show the total revenue in 2020
+- Show the total revenue in 2020 in chennai
+- Show all the distinct products sold in chennai
+- Check if the sales_amount column has negative or zero values in the transactions table
+- Turns out there are duplicate currencies and we don’t want that so check the currency column in the transactions table and tackle this by deleting the bad/duplicate records for both currencies
+- Show the total revenue in year 2020 by month january
 
 ## 4. Here are my answers for step 3 above: 
 
@@ -136,19 +136,19 @@ NOTE: in real life you would have a spot_conversion_table which will have the cu
 
 NOTE: FILE OPTION+SETTINGS -> REPORT SETTINGS -> SELECT THE OPTION TO “CHANGE DEFAULT VISUAL INTERACTION FROM CROSS HIGHLIGHTING TO CROSS FILTERING” 
 
-- SHOW THE TOTAL REVENUE IN A CARD FORMAT using the norm_sales_amount! 
-- SHOW THE TOTAL SALES QTY IN A CARD FORMAT
-- SHOW THE TOTAL REVENUE BY CUSTOMER IN A HORIZONTAL BAR CHART FORMAT
-- SHOW THE TOTAL  SALES QTY BY CUSTOMER IN A HORIZONTAL BAR CHART FORMAT
-- SHOW THE YEARS AS A SLICER IN HORIZONTAL ORIENTATION SO YOU CAN SEE THE REVENUE AND SALES QTY BY YEAR
-- SHOW THE REVENUE AND SALES QTY BY MONTHS, YOU’LL HAVE TO CHANGE THE FORMATTING OF CY_DATE FOR THIS
-- VERIFY / CROSS CHECK IN MYSQL
-- SHOW REVENUE & SALES QTY BASED ON MARKET NAME (SO REGIONS) INSTEAD OF CUSTOMER NAME
-- SHOW THE TOP 5 CUSTOMERS AS THEY ARE GIVING ME THE MOST AMOUNT OF BUSINESS / REVENUE, CHANGE TITLE, MAKE SURE CUSTOMER NAME IS VISIBLE
-- SHOW WHICH TOP 5 PRODUCTS ARE GIVING YOU THE MOST AMOUNT OF REVENUE
-- SHOW A LINE CHART FOR THE REVENUE OVER BY CY DATE, CHANGE THE COLOUR TO RED, GET RID OF THE X & Y-AXIS LABELS
-- WHAT ARE MY WORST PERFORMING PRODUCTS?
-- WHAT ARE THE WORST PERFORMING REGIONS? 
+- Show the total revenue in a card format using the using the norm_sales_amount column we created
+- Show the total sales qty in a card format 
+- Show The Total Revenue By Customer In A Horizontal Bar Chart Format
+- Show The Total Sales Qty By Customer In A Horizontal Bar Chart Format
+- Show The Years As A Slicer In Horizontal Orientation So You Can See The Revenue And Sales Qty By Year
+- Show The Revenue And Sales Qty By Months, You’ll Have To Change The Formatting Of Cy_Date For This
+- Verify / Cross Check In MySQL
+- Show Revenue & Sales Qty Based On Market Name (So Regions) Instead Of Customer Name
+- Show The Top 5 Customers As They Are Giving Me The Most Amount Of Business / Revenue, Change Title, Make Sure Customer Name Is Visible
+- Show Which Top 5 Products Are Giving You The Most Amount Of Revenue
+- Show A Line Chart For The Revenue Over By Cy Date, Change The Colour To Red, Get Rid Of The X & Y-Axis Labels
+- What Are My Worst Performing Products?
+- What Are The Worst Performing Regions?
 
 ## 9. PUBLISH TO WEBSITE AND MOBILE APP: 
 HERE YOU WILL NEED A WORK ACCOUNT
